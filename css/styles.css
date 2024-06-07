@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    background-color: oldlace;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main :not(header){
+    padding-left: 20px;
+}
+header :not(p){
+    text-align: center;
+}
+header p {
+    margin-left: 20px;
+}
+#blackBanner {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+    height: 110px;
+}
+#blackBanner h1{
+    font-style: italic;
+    margin-top: 0;
+    font-size: 3em;
+    margin-bottom: 0;
+}
+#blackBanner h2 {
+    margin-top: 10px;
+}
+img {
+    cursor: pointer;
+    transition: opacity 0.25s ease;
+}
+img:hover {
+    opacity: 0.8;
+}
+img:active {
+    opacity: 0.7;
+}
